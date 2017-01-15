@@ -1,0 +1,34 @@
+1) Create a database
+use  employeedb;
+2) Create a collection
+db.createCollection("employees")
+3) Document insertion
+db.employees.insert(
+    {
+
+        "Name": "Yogendra",
+        "Email": "yogendra.pandey@xyz.com",
+        "Date_of_birth": "1992-01-15",
+        "Department": "Web",
+        "Gender": "Male",
+        "Age": 24
+    },
+	{
+
+        "Name": "Suresh",
+        "Email": "suresh@abc.com",
+        "Date_of_birth": "1990-01-15",
+        "Department": "Web",
+        "Gender": "Male",
+        "Age": 26
+    },
+    {
+
+          "Name": "Ramesh",
+          "Email": "ramesh@abc.com",
+          "Date_of_birth": "1990-01-15",
+          "Department": "Web",
+          "Gender": "Male",
+          "Age": 26
+      }
+)
